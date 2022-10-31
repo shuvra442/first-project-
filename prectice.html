@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <title>prectice</title>
+    <style>
+          *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+          }
+         body{
+            background-color:rgb(166, 166, 209);
+
+         }
+         header{
+            margin: 15px;
+            border: 5px solid black;
+            background-color: rgb(185, 230, 246);
+            
+         }
+         header h1{
+              font-size: 45px 60vh;
+              /* background-color: rgb(185, 230, 246); */
+              text-align: center;
+              font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              color:orange;
+            
+         }
+         header p{
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            text-align: center;
+            /* background-color: rgb(185, 230, 246); */
+            display: block;
+         }
+         .nav1{
+          overflow: hidden;
+          background-color: #333;
+         }
+         .nav1 a{
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 15px 50px;
+            text-decoration: none;  
+          
+         }
+         .nav1 a:hover{
+               background-color: rgb(248, 211, 211);
+                color:#333
+         }
+         
+         
+        .leftcolumn{
+            float:left;
+            width:70%; 
+            box-shadow: 5px 5px rgb(177, 248, 168);
+            
+        }
+
+        .card {
+           background-color: white;
+           padding: 10vh;
+            margin-top: 20px;
+          
+        }
+
+        .img1{
+            width:100%;
+            padding: 15px;
+            background-color: #aaa;
+        }
+        .rightcolumn{
+            float:right;
+            width:25%;
+            box-shadow: 10px 15px 15px 20px lightblue;
+        }
+        .row:after {
+             content: "";
+             display: table;
+             clear: both;
+             }
+         @media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+     }
+    }
+    @media screen and (max-width: 400px) {
+  .nav1 a {
+    float: none;
+    width: 100%;
+  }
+}
+ footer{
+      text-align: center;
+      background-color: #aaa;
+      padding: 20px;
+ }
+ @keyframes sh{
+          from{
+               width:20px;
+          }
+          to{
+            width:31px;
+          }
+
+ }
+   header  .box1{
+            
+            animation: sh 65 linear 2s infinite reverse;
+
+     }
+    </style>
+</head>
+<body>
+      <header>
+        <div class="box1" style="float:right;">NEW</div>
+        <h1> WELCOME TO OUR WEBSITE</h1>
+        <p>Here am i define the simple web layout</p>
+</header> 
+  <div class="nav1"> 
+          <a href="#">LINK 1</a>
+          <a href="#">LINK 2</a>
+          <a href="#">LINK 3</a>
+          <a href="#">LINK 4</a>
+          <a href="" style="float:right;">LINK 5</a>
+          <a href="" style="float:right;">LINK 5</a>
+    </div>
+ <div class="row">
+     <div class="leftcolumn">
+        <div class="card">
+          <div class="img1" style="height: 200px;"> my imgae
+          </div>
+          <div class="prag">
+               <p><h3>
+                after a long day i will create a webpage....
+               jbdjk kd  jkdsn djd jnsdv sn vsvbv vvsv slvsv sdvsndvs 
+               ssdkvsd vskvns vsvs kvnsd sdnsdsdm sknss ssnkjsism kjnjs
+               jhcsahjcbsajcbs chjcbc sbscbnc bsjcbsc sc shj sc s cs c 
+               zjhcsdh chjbcs cssc ssj scsjhvs sjcsj sd csjsd ...
+               </h3>            
+               </p>
+          </div>
+        </div>
+        <div class="card">
+            <div class="img1" style="height: 200px;"> my imgae
+            </div>
+            <div class="prag">
+                 <p><h3>
+                  after a long day i will create a webpage....
+                 jbdjk kd  jkdsn djd jnsdv sn vsvbv vvsv slvsv sdvsndvs 
+                 ssdkvsd vskvns vsvs kvnsd sdnsdsdm sknss ssnkjsism kjnjs
+                 jhcsahjcbsajcbs chjcbc sbscbnc bsjcbsc sc shj sc s cs c 
+                 zjhcsdh chjbcs cssc ssj scsjhvs sjcsj sd csjsd ...
+                 </h3>            
+                 </p>
+            </div>
+          </div>
+         
+       
+     </div>
+
+     <div class="rightcolumn">
+        <div class="card">
+            ABOUT me
+            my image
+          <div class="img1" style="height: 100px; width: auto;"></div>
+             
+          </div>
+         <div class="card" style="height:35vh; background-color: rgb(232, 252, 248);">
+               <center>aswef fwre</center>  
+              <div class="img2"><p>image</p></div>
+              <div class="img2"><p>image</p></div>
+              <div class="img2"><p>image</p></div>
+              <div class="img2"><p>image</p></div>
+         </div>
+         <div class="card">
+            ABOUT me
+          <div class="img1" style="height: 100px; width: auto;"></div>
+              my image
+          </div>
+       
+       
+       
+        </div>
+       </div>
+     
+
+
+    </div><br><br>
+
+   <footer>
+       copyright
+   </footer>
+</body>
+</html>
